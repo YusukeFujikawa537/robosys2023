@@ -1,4 +1,4 @@
-#!/user/bin/python3
+#!/usr/bin/python3
 # SPDX-FileCopyrightText: 2023 Yusuke Fujikawa
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
@@ -7,7 +7,7 @@ ans = 0
 for line in sys.stdin:
     try:
         ans += int(line)
-    exept:
+    except:
         ans += float(line)
 
 print(ans)
