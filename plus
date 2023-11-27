@@ -1,13 +1,17 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2023 Yusuke Fujikawa
 # SPDX-License-Identifier: BSD-3-Clause
-import sys
+
+import sys 
 
 ans = 0
+q = 0
 for line in sys.stdin:
     try:
         ans += int(line)
+        q -= int(line)
     except:
         ans += float(line)
+        q -= float(line)
 
-print(ans)
+print(ans,q)
