@@ -1,6 +1,25 @@
-＊このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布おやび使用が許可されます.
-＊©２０２２　Yusuke Fujikawa
- ##　robosys2023
-ー千葉工業大学未来ロボティクス学科のロボットシステム学の講義で作成したレポジトリである。
-＋千葉工業大学未来ロボティクス学科のロボットシステム学の講義で作成したレポジトリである。
+## plusコマンド
+![test](https://github.com/YusukeFujikawa537/robosys2023/actions/workflows/test.yml/badge.svg)
+
+標準入力から読み込んだ数字を足す、引く。
+
+## 必要なソフトウェア
+＊Python
+　＊テスト済み: 3.7～3.10
+
+## 使用方法
+、、、
+$ seq 5 | ./plus
+、、、
+## 実行結果
+、、、
+$ 15 -15
+、、、
+## テスト環境
+＊　Ubuntu
+
+このソフトウェアパッケージは、３条項ＢＳＤライセンスの下、再頒布および使用が許可されています。
+このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
+[ryuichiueda/my_slides_robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys2022)
+©　2023　Yusuke Fujikawa
 
