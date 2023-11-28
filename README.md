@@ -18,6 +18,14 @@ $ 15 -15
 ## テスト環境
 ＊　Ubuntu
 
+## インストール方法
+以下のコマンドを実行
+```
+$ git clone https://github.com/YusukeFujikawa537/robosys2023.git
+```
+
+## ライセンス
+
 このソフトウェアパッケージは、３条項ＢＳＤライセンスの下、再頒布および使用が許可されています。
 このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
 [ryuichiueda/my/slides/robosys/2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys2022)
